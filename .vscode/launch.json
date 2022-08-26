@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "Debug Fastlane with Bundler",
+        "showDebuggerOutput": true,
+        "type": "Ruby",
+        "request": "launch",
+        "useBundler": true,
+        "cwd": "${workspaceRoot}/iOSDemo",      // fastlane 执行的工程路径
+        "program": "${workspaceRoot}/fastlane/bin/fastlane",    // 本地fastlane命令路径
+        "args": ["build"],  // fastlane 命令参数
+      }
+    ]
+  }
